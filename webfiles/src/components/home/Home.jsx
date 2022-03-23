@@ -31,7 +31,7 @@ const Home = () => {
             <h3>BATTERY</h3>
           </div>
         </div>
-        <div className="btn-start">
+        <div href="#Featured" className="btn-start">
             <a href="#Featured">START</a>
         </div>
       </div>
