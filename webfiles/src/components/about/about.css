@@ -1,0 +1,98 @@
+.section.section-about {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+.container.container-about {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.container-about-gral {
+    display: block;
+    margin: auto;
+}
+
+.section.section-about .container-img-about {
+    width: 50%;
+    position: relative;
+    top: 140px;
+    left: 40px;
+}
+
+.section.section-about .container-img-about img {
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.container-img-about .container-info-img {
+    position: relative;
+    top: -75px;
+    left: 380px;
+    width: 28%;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 10px;
+    backdrop-filter: blur(16px);
+}
+
+.container-img-about .container-info-img h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container-img-about .container-info-img p {
+    color: var(--text-color);
+    font-size: var(--sm-size);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container.container-about .container-info-about {
+    position: relative;
+    width: 40%;
+    left: 640px;
+    top: -290px;
+}
+
+.container.container-about .container-info-about h1 {
+    color: #fff;
+    font-size: var(--h1-font-size);
+    padding-bottom: 0.3rem;
+}
+
+.container.container-about .container-info-about h2 {
+    color: #fff;
+    font-size: var(--h1-font-size);
+    padding-bottom: 1.5rem;
+}
+
+.container.container-about .container-info-about p {
+    color: var(--text-color);
+    font-size: var(--sm-size);
+    padding-bottom: 1.5rem;
+    width: 75%;
+    line-height: 25px;
+}
+
+.container.container-about .container-info-about button {
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: var(--color-main-variant);
+    border-radius: 5px;
+    outline: none;
+    font-size: var(--sm-size);
+    border: 2px solid var(--color-main-variant);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.container.container-about .container-info-about button:hover {
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+}

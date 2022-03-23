@@ -1,0 +1,88 @@
+/* ============= GOOGLE FONTS ============= */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
+
+/* ============= VARIABLES CSS ============= */
+
+:root {
+
+    /* =========== COLORS =========== */
+    --color-main: hsl(219, 69%, 56%);
+    --color-main-variant: hsl(219, 69%, 52%);
+    --title-color: hsl(219, 8%, 95%);
+    --text-color: hsl(219, 8%, 75%);
+    --grey: hsl(219, 4%, 55%);
+    --body-color: hsl(219, 4%, 4%);
+    --container-color: hsl(219, 4%, 7%);
+
+    /* =========== FONT TYPE =========== */
+    --body-font: 'Exo', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --default-size : .938rem;
+    --sm-size: .813rem;
+    --sxm-size: .75rem;
+}
+
+/* ============= MEDIA QUERYS ============= */
+
+@media screen and (min-width: 968px) {
+    :root {
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --default-size : 1rem;
+    --sm-size: .875rem;
+    --sxm-size: .813rem;
+    }
+}
+
+/* ============= BASE CSS ============= */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--container-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 5rem;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--default-size);
+    background-color: var(--body-color);
+    color: var(--color-main);
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section.section {
+    margin-top: 9rem;
+}

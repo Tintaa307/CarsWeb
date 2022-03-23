@@ -1,0 +1,52 @@
+.section-header {
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: var(--container-color);
+    position: fixed;
+    z-index: 2;
+}
+
+.container-icon {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+
+.container-icon a {
+    color: #fff;
+    font-size: var(--default-size);
+    transition: 0.3s ease-in-out;
+}
+
+.container-icon a i {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.container-icon a:hover {
+    color: var(--color-main);
+    transition: 0.3s ease-in-out;
+}
+
+.container.container-header .list-nav {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+
+.container.container-header .list-nav li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.container.container-header .list-nav li a {
+    color: #fff;
+    font-size: var(--default-size);
+    transition: 0.3s ease-in-out;
+}
+
+.container.container-header .list-nav li a:hover {
+    color: var(--color-main);
+    transition: 0.3s ease-in-out;
+}

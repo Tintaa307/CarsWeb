@@ -1,0 +1,132 @@
+.section-home {
+    width: 70%;
+    height: 100vh;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.container.container-home .container-title {
+    margin-top: 7rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.container.container-home .container-title h1 {
+    color: #fff;
+    font-size: var(--h1-font-size);
+    padding-bottom: 0.5rem;
+}
+
+.container.container-home .container-title h2 {
+    color: #fff;
+    font-size: var(--h2-font-size);
+    padding-bottom: 0.5rem;
+}
+
+.container.container-home .container-title a {
+    color: var(--grey);
+    font-size: var(--sxm-size);
+}
+
+.container.container-home .container-title a i {
+    color: var(--color-main);
+    padding-right: 5px;
+}
+
+.section-home .container-img-home img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    user-select: none;
+    transition: 0.3s ease-in-out;
+}
+
+.section-home .container-img-home img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.container-info-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-info-home div {
+    display: block;
+    margin: auto;
+}
+
+.container-info-home div.info-box a {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.container-info-home div.info-box a i {
+    background-color: var(--container-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container-info-home div.info-box h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.container-info-home div.info-box h3 {
+    color: var(--grey);
+    text-align: center;
+    font-size: var(--sxm-size);
+}
+
+.container.container-home .btn-start {
+    position: relative;
+    border: 2px solid hsl(158, 89%, 30%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: var(--sxm-size);
+    margin-top: 2.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.container.container-home .btn-start::before {
+    content: '';
+    border: 2px solid hsl(158, 98%, 43%);
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 12px hsl(158, 98%, 43%);
+    transition: .3s;
+    animation: button 3s infinite;
+}
+
+@keyframes button {
+    0% {
+        box-shadow: 0 0 12px hsl(158, 98%, 43%);
+    }
+
+    50% {
+        box-shadow: 0 0 24px hsl(158, 98%, 43%);
+    }
+}
+
+.container.container-home .btn-start a {
+    color: #fff;
+}
+
+.container.container-home .btn-start .container-min a {
+    padding: 10px;
+    border: 2px solid ;
+}
